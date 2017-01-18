@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A3C0E12199EAD11007B33B5 /* PassapDirectProtocol.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A3C0E10199EAD11007B33B5 /* PassapDirectProtocol.cpp */; };
+		8A3F9A9316FFE127002B609C /* KnitController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A3F9A9116FFE127002B609C /* KnitController.cpp */; };
+		8A3F9A9716FFE439002B609C /* GifReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A3F9A9616FFE439002B609C /* GifReader.cpp */; };
+		8A42E4DD16FEA2F100BDE0B4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A42E4DC16FEA2F100BDE0B4 /* Cocoa.framework */; };
+		8A42E4E716FEA2F100BDE0B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8A42E4E516FEA2F100BDE0B4 /* InfoPlist.strings */; };
+		8A42E4E916FEA2F100BDE0B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A42E4E816FEA2F100BDE0B4 /* main.m */; };
+		8A42E4ED16FEA2F100BDE0B4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8A42E4EB16FEA2F100BDE0B4 /* Credits.rtf */; };
+		8A42E4F016FEA2F100BDE0B4 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8A42E4EF16FEA2F100BDE0B4 /* AppDelegate.mm */; };
+		8A42E4F316FEA2F100BDE0B4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A42E4F116FEA2F100BDE0B4 /* MainMenu.xib */; };
+		8A42E4FC16FEA2F100BDE0B4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A42E4DC16FEA2F100BDE0B4 /* Cocoa.framework */; };
+		8A42E50416FEA2F100BDE0B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8A42E50216FEA2F100BDE0B4 /* InfoPlist.strings */; };
+		8A42E50716FEA2F100BDE0B4 /* KnitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A42E50616FEA2F100BDE0B4 /* KnitTests.m */; };
+		8A42E52216FEA86A00BDE0B4 /* SerialPortManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A42E52016FEA86A00BDE0B4 /* SerialPortManager.cpp */; };
+		8A5683D1170013C400A78C4C /* KnitSerial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A5683CF170013C400A78C4C /* KnitSerial.cpp */; };
+		8A87657E16FEBD0D004EFA2F /* Controller.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8A87657D16FEBD0D004EFA2F /* Controller.mm */; };
+		8A87658416FEC4E9004EFA2F /* SerialPort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A87658316FEC4E9004EFA2F /* SerialPort.cpp */; };
+		8A87658616FECE0B004EFA2F /* Threads.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A87658516FECE0B004EFA2F /* Threads.cpp */; };
+		8A8FEA12199685BC00FB0E73 /* KnitProtocol.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A8FEA10199685BC00FB0E73 /* KnitProtocol.cpp */; };
+		8A8FEA151996907500FB0E73 /* PassapProtocol.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A8FEA131996907500FB0E73 /* PassapProtocol.cpp */; };
+		8ABFBFE919FB1FD100BCF937 /* KnitTechnique.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8ABFBFE719FB1FD100BCF937 /* KnitTechnique.cpp */; };
+		8ABFBFEC19FB2BFB00BCF937 /* KnitEvent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8ABFBFEA19FB2BFB00BCF937 /* KnitEvent.cpp */; };
+		8AEEA531199C79D1002FC9EF /* SK840Protocol.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8AEEA52F199C79D1002FC9EF /* SK840Protocol.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8A42E4FD16FEA2F100BDE0B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A42E4D116FEA2F100BDE0B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A42E4D816FEA2F100BDE0B4;
+			remoteInfo = Knit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8A3C0E10199EAD11007B33B5 /* PassapDirectProtocol.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PassapDirectProtocol.cpp; sourceTree = "<group>"; };
+		8A3C0E11199EAD11007B33B5 /* PassapDirectProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassapDirectProtocol.h; sourceTree = "<group>"; };
+		8A3F9A9116FFE127002B609C /* KnitController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = KnitController.cpp; sourceTree = "<group>"; };
+		8A3F9A9216FFE127002B609C /* KnitController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KnitController.h; sourceTree = "<group>"; };
+		8A3F9A9416FFE2AE002B609C /* GifReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GifReader.h; sourceTree = "<group>"; };
+		8A3F9A9616FFE439002B609C /* GifReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GifReader.cpp; sourceTree = "<group>"; };
+		8A42E4D916FEA2F100BDE0B4 /* Knit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Knit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A42E4DC16FEA2F100BDE0B4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		8A42E4DF16FEA2F100BDE0B4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		8A42E4E016FEA2F100BDE0B4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8A42E4E116FEA2F100BDE0B4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8A42E4E416FEA2F100BDE0B4 /* Knit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Knit-Info.plist"; sourceTree = "<group>"; };
+		8A42E4E616FEA2F100BDE0B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8A42E4E816FEA2F100BDE0B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8A42E4EA16FEA2F100BDE0B4 /* Knit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Knit-Prefix.pch"; sourceTree = "<group>"; };
+		8A42E4EC16FEA2F100BDE0B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		8A42E4EE16FEA2F100BDE0B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8A42E4EF16FEA2F100BDE0B4 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		8A42E4F216FEA2F100BDE0B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		8A42E4F916FEA2F100BDE0B4 /* KnitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KnitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A42E50116FEA2F100BDE0B4 /* KnitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KnitTests-Info.plist"; sourceTree = "<group>"; };
+		8A42E50316FEA2F100BDE0B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8A42E50516FEA2F100BDE0B4 /* KnitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KnitTests.h; sourceTree = "<group>"; };
+		8A42E50616FEA2F100BDE0B4 /* KnitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KnitTests.m; sourceTree = "<group>"; };
+		8A42E51B16FEA85A00BDE0B4 /* SerialPortManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SerialPortManager.h; sourceTree = "<group>"; };
+		8A42E51C16FEA85A00BDE0B4 /* Threads.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Threads.h; sourceTree = "<group>"; };
+		8A42E52016FEA86A00BDE0B4 /* SerialPortManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SerialPortManager.cpp; sourceTree = "<group>"; };
+		8A5683CF170013C400A78C4C /* KnitSerial.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = KnitSerial.cpp; sourceTree = "<group>"; };
+		8A5683D0170013C400A78C4C /* KnitSerial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KnitSerial.h; sourceTree = "<group>"; };
+		8A87657C16FEBD0D004EFA2F /* Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Controller.h; sourceTree = "<group>"; };
+		8A87657D16FEBD0D004EFA2F /* Controller.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Controller.mm; sourceTree = "<group>"; };
+		8A87658216FEC42D004EFA2F /* SerialPort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SerialPort.h; sourceTree = "<group>"; };
+		8A87658316FEC4E9004EFA2F /* SerialPort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SerialPort.cpp; sourceTree = "<group>"; };
+		8A87658516FECE0B004EFA2F /* Threads.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Threads.cpp; sourceTree = "<group>"; };
+		8A8FEA10199685BC00FB0E73 /* KnitProtocol.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = KnitProtocol.cpp; sourceTree = "<group>"; };
+		8A8FEA11199685BC00FB0E73 /* KnitProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KnitProtocol.h; sourceTree = "<group>"; };
+		8A8FEA131996907500FB0E73 /* PassapProtocol.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PassapProtocol.cpp; sourceTree = "<group>"; };
+		8A8FEA141996907500FB0E73 /* PassapProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassapProtocol.h; sourceTree = "<group>"; };
+		8ABFBFE719FB1FD100BCF937 /* KnitTechnique.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = KnitTechnique.cpp; sourceTree = "<group>"; };
+		8ABFBFE819FB1FD100BCF937 /* KnitTechnique.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KnitTechnique.h; sourceTree = "<group>"; };
+		8ABFBFEA19FB2BFB00BCF937 /* KnitEvent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = KnitEvent.cpp; sourceTree = "<group>"; };
+		8ABFBFEB19FB2BFB00BCF937 /* KnitEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = KnitEvent.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		8AEEA52F199C79D1002FC9EF /* SK840Protocol.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SK840Protocol.cpp; sourceTree = "<group>"; };
+		8AEEA530199C79D1002FC9EF /* SK840Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SK840Protocol.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A42E4D616FEA2F100BDE0B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A42E4DD16FEA2F100BDE0B4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A42E4F516FEA2F100BDE0B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A42E4FC16FEA2F100BDE0B4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A42E4D016FEA2F100BDE0B4 = {
+			isa = PBXGroup;
+			children = (
+				8A42E4E216FEA2F100BDE0B4 /* Knit */,
+				8A42E4FF16FEA2F100BDE0B4 /* KnitTests */,
+				8A42E4DB16FEA2F100BDE0B4 /* Frameworks */,
+				8A42E4DA16FEA2F100BDE0B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A42E4DA16FEA2F100BDE0B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A42E4D916FEA2F100BDE0B4 /* Knit.app */,
+				8A42E4F916FEA2F100BDE0B4 /* KnitTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A42E4DB16FEA2F100BDE0B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A42E4DC16FEA2F100BDE0B4 /* Cocoa.framework */,
+				8A42E4DE16FEA2F100BDE0B4 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A42E4DE16FEA2F100BDE0B4 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A42E4DF16FEA2F100BDE0B4 /* AppKit.framework */,
+				8A42E4E016FEA2F100BDE0B4 /* CoreData.framework */,
+				8A42E4E116FEA2F100BDE0B4 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		8A42E4E216FEA2F100BDE0B4 /* Knit */ = {
+			isa = PBXGroup;
+			children = (
+				8A42E51816FEA85A00BDE0B4 /* include */,
+				8A42E51D16FEA86A00BDE0B4 /* src */,
+				8A5683D0170013C400A78C4C /* KnitSerial.h */,
+				8A5683CF170013C400A78C4C /* KnitSerial.cpp */,
+				8ABFBFE719FB1FD100BCF937 /* KnitTechnique.cpp */,
+				8ABFBFE819FB1FD100BCF937 /* KnitTechnique.h */,
+				8A87657D16FEBD0D004EFA2F /* Controller.mm */,
+				8A87657C16FEBD0D004EFA2F /* Controller.h */,
+				8ABFBFEA19FB2BFB00BCF937 /* KnitEvent.cpp */,
+				8ABFBFEB19FB2BFB00BCF937 /* KnitEvent.h */,
+				8A3F9A9216FFE127002B609C /* KnitController.h */,
+				8A3F9A9116FFE127002B609C /* KnitController.cpp */,
+				8A8FEA11199685BC00FB0E73 /* KnitProtocol.h */,
+				8A8FEA10199685BC00FB0E73 /* KnitProtocol.cpp */,
+				8AEEA52F199C79D1002FC9EF /* SK840Protocol.cpp */,
+				8AEEA530199C79D1002FC9EF /* SK840Protocol.h */,
+				8A8FEA141996907500FB0E73 /* PassapProtocol.h */,
+				8A8FEA131996907500FB0E73 /* PassapProtocol.cpp */,
+				8A3C0E11199EAD11007B33B5 /* PassapDirectProtocol.h */,
+				8A3C0E10199EAD11007B33B5 /* PassapDirectProtocol.cpp */,
+				8A42E4EE16FEA2F100BDE0B4 /* AppDelegate.h */,
+				8A42E4EF16FEA2F100BDE0B4 /* AppDelegate.mm */,
+				8A42E4F116FEA2F100BDE0B4 /* MainMenu.xib */,
+				8A42E4E316FEA2F100BDE0B4 /* Supporting Files */,
+			);
+			path = Knit;
+			sourceTree = "<group>";
+		};
+		8A42E4E316FEA2F100BDE0B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A42E4E416FEA2F100BDE0B4 /* Knit-Info.plist */,
+				8A42E4E516FEA2F100BDE0B4 /* InfoPlist.strings */,
+				8A42E4E816FEA2F100BDE0B4 /* main.m */,
+				8A42E4EA16FEA2F100BDE0B4 /* Knit-Prefix.pch */,
+				8A42E4EB16FEA2F100BDE0B4 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8A42E4FF16FEA2F100BDE0B4 /* KnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				8A42E50516FEA2F100BDE0B4 /* KnitTests.h */,
+				8A42E50616FEA2F100BDE0B4 /* KnitTests.m */,
+				8A42E50016FEA2F100BDE0B4 /* Supporting Files */,
+			);
+			path = KnitTests;
+			sourceTree = "<group>";
+		};
+		8A42E50016FEA2F100BDE0B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A42E50116FEA2F100BDE0B4 /* KnitTests-Info.plist */,
+				8A42E50216FEA2F100BDE0B4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8A42E51816FEA85A00BDE0B4 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				8A42E51916FEA85A00BDE0B4 /* d2bd */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		8A42E51916FEA85A00BDE0B4 /* d2bd */ = {
+			isa = PBXGroup;
+			children = (
+				8A3F9A9416FFE2AE002B609C /* GifReader.h */,
+				8A87658216FEC42D004EFA2F /* SerialPort.h */,
+				8A42E51B16FEA85A00BDE0B4 /* SerialPortManager.h */,
+				8A42E51C16FEA85A00BDE0B4 /* Threads.h */,
+			);
+			path = d2bd;
+			sourceTree = "<group>";
+		};
+		8A42E51D16FEA86A00BDE0B4 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				8A42E51E16FEA86A00BDE0B4 /* d2bd */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		8A42E51E16FEA86A00BDE0B4 /* d2bd */ = {
+			isa = PBXGroup;
+			children = (
+				8A3F9A9616FFE439002B609C /* GifReader.cpp */,
+				8A87658516FECE0B004EFA2F /* Threads.cpp */,
+				8A87658316FEC4E9004EFA2F /* SerialPort.cpp */,
+				8A42E52016FEA86A00BDE0B4 /* SerialPortManager.cpp */,
+			);
+			path = d2bd;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A42E4D816FEA2F100BDE0B4 /* Knit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A42E50A16FEA2F100BDE0B4 /* Build configuration list for PBXNativeTarget "Knit" */;
+			buildPhases = (
+				8A42E4D516FEA2F100BDE0B4 /* Sources */,
+				8A42E4D616FEA2F100BDE0B4 /* Frameworks */,
+				8A42E4D716FEA2F100BDE0B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Knit;
+			productName = Knit;
+			productReference = 8A42E4D916FEA2F100BDE0B4 /* Knit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8A42E4F816FEA2F100BDE0B4 /* KnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A42E50D16FEA2F100BDE0B4 /* Build configuration list for PBXNativeTarget "KnitTests" */;
+			buildPhases = (
+				8A42E4F416FEA2F100BDE0B4 /* Sources */,
+				8A42E4F516FEA2F100BDE0B4 /* Frameworks */,
+				8A42E4F616FEA2F100BDE0B4 /* Resources */,
+				8A42E4F716FEA2F100BDE0B4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A42E4FE16FEA2F100BDE0B4 /* PBXTargetDependency */,
+			);
+			name = KnitTests;
+			productName = KnitTests;
+			productReference = 8A42E4F916FEA2F100BDE0B4 /* KnitTests.octest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A42E4D116FEA2F100BDE0B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastTestingUpgradeCheck = 0610;
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Daniel Riley";
+			};
+			buildConfigurationList = 8A42E4D416FEA2F100BDE0B4 /* Build configuration list for PBXProject "Knit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8A42E4D016FEA2F100BDE0B4;
+			productRefGroup = 8A42E4DA16FEA2F100BDE0B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A42E4D816FEA2F100BDE0B4 /* Knit */,
+				8A42E4F816FEA2F100BDE0B4 /* KnitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A42E4D716FEA2F100BDE0B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A42E4E716FEA2F100BDE0B4 /* InfoPlist.strings in Resources */,
+				8A42E4ED16FEA2F100BDE0B4 /* Credits.rtf in Resources */,
+				8A42E4F316FEA2F100BDE0B4 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A42E4F616FEA2F100BDE0B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A42E50416FEA2F100BDE0B4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8A42E4F716FEA2F100BDE0B4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A42E4D516FEA2F100BDE0B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AEEA531199C79D1002FC9EF /* SK840Protocol.cpp in Sources */,
+				8A42E4E916FEA2F100BDE0B4 /* main.m in Sources */,
+				8ABFBFE919FB1FD100BCF937 /* KnitTechnique.cpp in Sources */,
+				8A42E4F016FEA2F100BDE0B4 /* AppDelegate.mm in Sources */,
+				8A42E52216FEA86A00BDE0B4 /* SerialPortManager.cpp in Sources */,
+				8A8FEA12199685BC00FB0E73 /* KnitProtocol.cpp in Sources */,
+				8A87657E16FEBD0D004EFA2F /* Controller.mm in Sources */,
+				8ABFBFEC19FB2BFB00BCF937 /* KnitEvent.cpp in Sources */,
+				8A8FEA151996907500FB0E73 /* PassapProtocol.cpp in Sources */,
+				8A87658416FEC4E9004EFA2F /* SerialPort.cpp in Sources */,
+				8A87658616FECE0B004EFA2F /* Threads.cpp in Sources */,
+				8A3C0E12199EAD11007B33B5 /* PassapDirectProtocol.cpp in Sources */,
+				8A3F9A9316FFE127002B609C /* KnitController.cpp in Sources */,
+				8A3F9A9716FFE439002B609C /* GifReader.cpp in Sources */,
+				8A5683D1170013C400A78C4C /* KnitSerial.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A42E4F416FEA2F100BDE0B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A42E50716FEA2F100BDE0B4 /* KnitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8A42E4FE16FEA2F100BDE0B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A42E4D816FEA2F100BDE0B4 /* Knit */;
+			targetProxy = 8A42E4FD16FEA2F100BDE0B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8A42E4E516FEA2F100BDE0B4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A42E4E616FEA2F100BDE0B4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8A42E4EB16FEA2F100BDE0B4 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A42E4EC16FEA2F100BDE0B4 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		8A42E4F116FEA2F100BDE0B4 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A42E4F216FEA2F100BDE0B4 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		8A42E50216FEA2F100BDE0B4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A42E50316FEA2F100BDE0B4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A42E50816FEA2F100BDE0B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8A42E50916FEA2F100BDE0B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8A42E50B16FEA2F100BDE0B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Knit/Knit-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					./Knit/include,
+					/usr/local/boost_1_53_0,
+				);
+				INFOPLIST_FILE = "Knit/Knit-Info.plist";
+				LIBRARY_SEARCH_PATHS = /usr/local/boost_1_53_0/lib/macosx;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8A42E50C16FEA2F100BDE0B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Knit/Knit-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					./Knit/include,
+					/usr/local/boost_1_53_0,
+				);
+				INFOPLIST_FILE = "Knit/Knit-Info.plist";
+				LIBRARY_SEARCH_PATHS = /usr/local/boost_1_53_0/lib/macosx;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8A42E50E16FEA2F100BDE0B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Knit.app/Contents/MacOS/Knit";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Knit/Knit-Prefix.pch";
+				INFOPLIST_FILE = "KnitTests/KnitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		8A42E50F16FEA2F100BDE0B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Knit.app/Contents/MacOS/Knit";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Knit/Knit-Prefix.pch";
+				INFOPLIST_FILE = "KnitTests/KnitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A42E4D416FEA2F100BDE0B4 /* Build configuration list for PBXProject "Knit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A42E50816FEA2F100BDE0B4 /* Debug */,
+				8A42E50916FEA2F100BDE0B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A42E50A16FEA2F100BDE0B4 /* Build configuration list for PBXNativeTarget "Knit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A42E50B16FEA2F100BDE0B4 /* Debug */,
+				8A42E50C16FEA2F100BDE0B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A42E50D16FEA2F100BDE0B4 /* Build configuration list for PBXNativeTarget "KnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A42E50E16FEA2F100BDE0B4 /* Debug */,
+				8A42E50F16FEA2F100BDE0B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A42E4D116FEA2F100BDE0B4 /* Project object */;
+}
