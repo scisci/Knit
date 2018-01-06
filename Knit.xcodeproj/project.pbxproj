@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		827E2E81A5998B9B069580D8 /* libPods-KnitTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C052EA7520D3FBC514EB15D /* libPods-KnitTests.a */; };
 		8A3C0E12199EAD11007B33B5 /* PassapDirectProtocol.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A3C0E10199EAD11007B33B5 /* PassapDirectProtocol.cpp */; };
 		8A3F9A9316FFE127002B609C /* KnitController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A3F9A9116FFE127002B609C /* KnitController.cpp */; };
 		8A3F9A9716FFE439002B609C /* GifReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A3F9A9616FFE439002B609C /* GifReader.cpp */; };
@@ -29,6 +30,7 @@
 		8ABFBFE919FB1FD100BCF937 /* KnitTechnique.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8ABFBFE719FB1FD100BCF937 /* KnitTechnique.cpp */; };
 		8ABFBFEC19FB2BFB00BCF937 /* KnitEvent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8ABFBFEA19FB2BFB00BCF937 /* KnitEvent.cpp */; };
 		8AEEA531199C79D1002FC9EF /* SK840Protocol.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8AEEA52F199C79D1002FC9EF /* SK840Protocol.cpp */; };
+		FD5A28C6AAA8F1FEB35CB413 /* libPods-Knit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA10D8BDF72471850B1243EC /* libPods-Knit.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C3E0C79EBD14B915378E1A7 /* Pods-KnitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KnitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KnitTests/Pods-KnitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		49BBCA7DB00FEE6B2B092D7A /* Pods-Knit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Knit.release.xcconfig"; path = "Pods/Target Support Files/Pods-Knit/Pods-Knit.release.xcconfig"; sourceTree = "<group>"; };
+		8384D76970610E73785FC4BC /* Pods-KnitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KnitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KnitTests/Pods-KnitTests.release.xcconfig"; sourceTree = "<group>"; };
 		8A3C0E10199EAD11007B33B5 /* PassapDirectProtocol.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PassapDirectProtocol.cpp; sourceTree = "<group>"; };
 		8A3C0E11199EAD11007B33B5 /* PassapDirectProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassapDirectProtocol.h; sourceTree = "<group>"; };
 		8A3F9A9116FFE127002B609C /* KnitController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = KnitController.cpp; sourceTree = "<group>"; };
@@ -61,7 +66,7 @@
 		8A42E4EE16FEA2F100BDE0B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8A42E4EF16FEA2F100BDE0B4 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
 		8A42E4F216FEA2F100BDE0B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		8A42E4F916FEA2F100BDE0B4 /* KnitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KnitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A42E4F916FEA2F100BDE0B4 /* KnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A42E50116FEA2F100BDE0B4 /* KnitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KnitTests-Info.plist"; sourceTree = "<group>"; };
 		8A42E50316FEA2F100BDE0B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8A42E50516FEA2F100BDE0B4 /* KnitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KnitTests.h; sourceTree = "<group>"; };
@@ -86,6 +91,9 @@
 		8ABFBFEB19FB2BFB00BCF937 /* KnitEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = KnitEvent.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		8AEEA52F199C79D1002FC9EF /* SK840Protocol.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SK840Protocol.cpp; sourceTree = "<group>"; };
 		8AEEA530199C79D1002FC9EF /* SK840Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SK840Protocol.h; sourceTree = "<group>"; };
+		9C052EA7520D3FBC514EB15D /* libPods-KnitTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KnitTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D126FC3A7F2E5BBDB4B514C2 /* Pods-Knit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Knit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Knit/Pods-Knit.debug.xcconfig"; sourceTree = "<group>"; };
+		FA10D8BDF72471850B1243EC /* libPods-Knit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Knit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +102,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A42E4DD16FEA2F100BDE0B4 /* Cocoa.framework in Frameworks */,
+				FD5A28C6AAA8F1FEB35CB413 /* libPods-Knit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +111,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A42E4FC16FEA2F100BDE0B4 /* Cocoa.framework in Frameworks */,
+				827E2E81A5998B9B069580D8 /* libPods-KnitTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,6 +125,7 @@
 				8A42E4FF16FEA2F100BDE0B4 /* KnitTests */,
 				8A42E4DB16FEA2F100BDE0B4 /* Frameworks */,
 				8A42E4DA16FEA2F100BDE0B4 /* Products */,
+				C459F39D5104E50C7FB828D3 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,7 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				8A42E4D916FEA2F100BDE0B4 /* Knit.app */,
-				8A42E4F916FEA2F100BDE0B4 /* KnitTests.octest */,
+				8A42E4F916FEA2F100BDE0B4 /* KnitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -132,6 +143,8 @@
 			children = (
 				8A42E4DC16FEA2F100BDE0B4 /* Cocoa.framework */,
 				8A42E4DE16FEA2F100BDE0B4 /* Other Frameworks */,
+				FA10D8BDF72471850B1243EC /* libPods-Knit.a */,
+				9C052EA7520D3FBC514EB15D /* libPods-KnitTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -246,6 +259,17 @@
 			path = d2bd;
 			sourceTree = "<group>";
 		};
+		C459F39D5104E50C7FB828D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D126FC3A7F2E5BBDB4B514C2 /* Pods-Knit.debug.xcconfig */,
+				49BBCA7DB00FEE6B2B092D7A /* Pods-Knit.release.xcconfig */,
+				2C3E0C79EBD14B915378E1A7 /* Pods-KnitTests.debug.xcconfig */,
+				8384D76970610E73785FC4BC /* Pods-KnitTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -253,9 +277,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8A42E50A16FEA2F100BDE0B4 /* Build configuration list for PBXNativeTarget "Knit" */;
 			buildPhases = (
+				6379954128C139F6A745FA9F /* [CP] Check Pods Manifest.lock */,
 				8A42E4D516FEA2F100BDE0B4 /* Sources */,
 				8A42E4D616FEA2F100BDE0B4 /* Frameworks */,
 				8A42E4D716FEA2F100BDE0B4 /* Resources */,
+				BF065E5075D93D0112D6AE81 /* [CP] Embed Pods Frameworks */,
+				4B22D4FA59F97F70274ACF4E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -270,10 +297,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8A42E50D16FEA2F100BDE0B4 /* Build configuration list for PBXNativeTarget "KnitTests" */;
 			buildPhases = (
+				19BA5CEFD19FEDF2D2851FA0 /* [CP] Check Pods Manifest.lock */,
 				8A42E4F416FEA2F100BDE0B4 /* Sources */,
 				8A42E4F516FEA2F100BDE0B4 /* Frameworks */,
 				8A42E4F616FEA2F100BDE0B4 /* Resources */,
 				8A42E4F716FEA2F100BDE0B4 /* ShellScript */,
+				198396F8C7F469BF469B6032 /* [CP] Embed Pods Frameworks */,
+				C455260044C85AC0E535FD7F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -282,7 +312,7 @@
 			);
 			name = KnitTests;
 			productName = KnitTests;
-			productReference = 8A42E4F916FEA2F100BDE0B4 /* KnitTests.octest */;
+			productReference = 8A42E4F916FEA2F100BDE0B4 /* KnitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -292,7 +322,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastTestingUpgradeCheck = 0610;
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Daniel Riley";
 			};
 			buildConfigurationList = 8A42E4D416FEA2F100BDE0B4 /* Build configuration list for PBXProject "Knit" */;
@@ -335,6 +365,72 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		198396F8C7F469BF469B6032 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KnitTests/Pods-KnitTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		19BA5CEFD19FEDF2D2851FA0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KnitTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B22D4FA59F97F70274ACF4E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Knit/Pods-Knit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6379954128C139F6A745FA9F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Knit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		8A42E4F716FEA2F100BDE0B4 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -347,6 +443,36 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		BF065E5075D93D0112D6AE81 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Knit/Pods-Knit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C455260044C85AC0E535FD7F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KnitTests/Pods-KnitTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -434,15 +560,28 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -451,7 +590,9 @@
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = YES;
@@ -466,18 +607,32 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				SDKROOT = macosx;
@@ -486,6 +641,7 @@
 		};
 		8A42E50B16FEA2F100BDE0B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D126FC3A7F2E5BBDB4B514C2 /* Pods-Knit.debug.xcconfig */;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -494,12 +650,13 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Knit/Knit-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
-					./Knit/include,
-					/usr/local/boost_1_53_0,
+					"$(inherited)/**",
+					"${SRCROOT}/Knit/include/**",
 				);
 				INFOPLIST_FILE = "Knit/Knit-Info.plist";
-				LIBRARY_SEARCH_PATHS = /usr/local/boost_1_53_0/lib/macosx;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.scisci.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = app;
@@ -508,6 +665,7 @@
 		};
 		8A42E50C16FEA2F100BDE0B4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49BBCA7DB00FEE6B2B092D7A /* Pods-Knit.release.xcconfig */;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -516,12 +674,13 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Knit/Knit-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
-					./Knit/include,
-					/usr/local/boost_1_53_0,
+					"$(inherited)/**",
+					"${SRCROOT}/Knit/include/**",
 				);
 				INFOPLIST_FILE = "Knit/Knit-Info.plist";
-				LIBRARY_SEARCH_PATHS = /usr/local/boost_1_53_0/lib/macosx;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.scisci.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = app;
@@ -530,6 +689,7 @@
 		};
 		8A42E50E16FEA2F100BDE0B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C3E0C79EBD14B915378E1A7 /* Pods-KnitTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Knit.app/Contents/MacOS/Knit";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -540,6 +700,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Knit/Knit-Prefix.pch";
 				INFOPLIST_FILE = "KnitTests/KnitTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.scisci.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
@@ -547,6 +708,7 @@
 		};
 		8A42E50F16FEA2F100BDE0B4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8384D76970610E73785FC4BC /* Pods-KnitTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Knit.app/Contents/MacOS/Knit";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -557,6 +719,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Knit/Knit-Prefix.pch";
 				INFOPLIST_FILE = "KnitTests/KnitTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.scisci.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 			};

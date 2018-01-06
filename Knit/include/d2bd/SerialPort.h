@@ -30,6 +30,7 @@
 #endif
 
 #include <string>
+#include <thread>
 #include "d2bd/Threads.h"
 
 #define SERIAL_PORT_BUFFER_SIZE 65536UL
